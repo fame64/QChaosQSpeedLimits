@@ -1,0 +1,107 @@
+(* Content-type: application/vnd.wolfram.cdf.text *)
+
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(***************************************************************************)
+(*                                                                         *)
+(*                                                                         *)
+(*  Under the Wolfram FreeCDF terms of use, this file and its content are  *)
+(*  bound by the Creative Commons BY-SA Attribution-ShareAlike license.    *)
+(*                                                                         *)
+(*        For additional information concerning CDF licensing, see:        *)
+(*                                                                         *)
+(*         www.wolfram.com/cdf/adopting-cdf/licensing-options.html         *)
+(*                                                                         *)
+(*                                                                         *)
+(***************************************************************************)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[      1088,         20]
+NotebookDataLength[      2960,         84]
+NotebookOptionsPosition[      3317,         79]
+NotebookOutlinePosition[      3718,         95]
+CellTagsIndexPosition[      3675,         92]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{"Limit", "[", 
+   RowBox[{
+    RowBox[{"Integrate", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Sqrt", "[", 
+        RowBox[{
+         RowBox[{"A", "^", "2"}], " ", "-", " ", 
+         RowBox[{"y", "^", "2"}]}], "]"}], "/", 
+       RowBox[{"(", 
+        RowBox[{"x", "-", "y"}], ")"}]}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", " ", 
+        RowBox[{"-", "A"}], ",", " ", "A"}], "}"}], ",", " ", 
+      RowBox[{"PrincipalValue", "\[Rule]", "True"}], ",", " ", 
+      RowBox[{"Assumptions", "\[Rule]", 
+       RowBox[{"x", "<", "A"}]}]}], "]"}], ",", " ", 
+    RowBox[{"A", " ", "\[Rule]", " ", "Infinity"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.835939877878758*^9, 3.835939912509534*^9}, {
+  3.835940038781386*^9, 3.83594004206448*^9}, {3.835940159359931*^9, 
+  3.835940163833315*^9}, {3.835940227151211*^9, 3.835940235710946*^9}, {
+  3.8359402667868853`*^9, 3.835940356715933*^9}, {3.8359406721358232`*^9, 
+  3.83594068167443*^9}, {3.835940785542966*^9, 3.835940792200589*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"88d4d1b0-8f3c-4880-9edc-ae3e5893646d"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"\[Pi]", " ", "x"}], 
+   RowBox[{"x", ">", "0"}]},
+  "ConditionalExpression"]], "Output",
+ CellChangeTimes->{
+  3.835940005900176*^9, 3.8359401559890223`*^9, 3.835940222917115*^9, {
+   3.83594026464844*^9, 3.835940288351468*^9}, 3.835940318553977*^9, 
+   3.8359404133983173`*^9, 3.83594076993559*^9, 3.8359408292084713`*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"cc238241-0820-451e-870f-b57becd12f26"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.835940474270811*^9, 3.835940506300609*^9}, 
+   3.835940664264357*^9},
+ CellLabel->"In[9]:=",ExpressionUUID->"3b307400-5a0f-4e93-99d3-682ff464eb56"]
+},
+WindowSize->{606., 658.5},
+WindowMargins->{{Automatic, 314.25}, {Automatic, 63.75}},
+FrontEndVersion->"12.1 para Linux x86 (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"6bcf267f-b90d-4253-9dea-a34363480b77"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[1510, 35, 1146, 25, 122, "Input",ExpressionUUID->"88d4d1b0-8f3c-4880-9edc-ae3e5893646d"],
+Cell[2659, 62, 443, 9, 46, "Output",ExpressionUUID->"cc238241-0820-451e-870f-b57becd12f26"]
+}, Open  ]],
+Cell[3117, 74, 196, 3, 29, "Input",ExpressionUUID->"3b307400-5a0f-4e93-99d3-682ff464eb56"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
